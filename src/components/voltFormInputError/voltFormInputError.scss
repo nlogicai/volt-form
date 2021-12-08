@@ -1,0 +1,8 @@
+.volt-form-input-error {
+  &:not(:first-child) {
+    margin-top: 4px;
+  }
+  font-size: 12px;
+  line-height: 13px;
+  color: indianred;
+}
