@@ -95,7 +95,7 @@ export default {
   methods: {
     onInput(event) {
       this.isShowErrors = true;
-      const value = event.target?.value ?? event;
+      const value = event?.target?.value ?? event;
       formGeneratorEmitter.emit("input", {
         model: this.item.model,
         value,
