@@ -1,12 +1,12 @@
 <template>
   <form class="n-form-generator" @submit="onSubmit($event)">
     <volt-form-input
-        v-for="(item, idx) in uiSchema"
-        :item="item"
-        :key="idx"
-        :components="components"
-        :value="value"
-        :errors="errors"
+      v-for="(item, idx) in uiSchema"
+      :item="item"
+      :key="idx"
+      :components="components"
+      :value="value"
+      :errors="errors"
     />
   </form>
 </template>
